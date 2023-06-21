@@ -21,6 +21,10 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: Helvetica, sans-serif;
+}
+
 /* Utils */
 .container {
   max-width: 1180px;
@@ -56,6 +60,14 @@ img {
   color: var(--black);
 }
 
+.text-red {
+  color: var(--red);
+}
+
+.text-bar {
+  text-decoration: line-through;
+}
+
 .normal-height {
   height: 1rem;
 }
@@ -89,6 +101,10 @@ img {
   position: relative;
 }
 
+.card-bottom span {
+  font-size: 0.8rem;
+}
+
 .label-offer {
   padding: 0.3rem;
   font-size: 0.75rem;
@@ -114,4 +130,8 @@ img {
   position: absolute;
   top: 1rem;
   right: -0.1rem;
+}
+
+.card-bottom .text-red {
+  font-weight: bold;
 }
