@@ -52,12 +52,24 @@ img {
   color: var(--white);
 }
 
+.text-black {
+  color: var(--black);
+}
+
 .normal-height {
   height: 1rem;
 }
 
 .bg-orange {
   background-color: var(--orange);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-red {
+  background-color: var(--red);
 }
 
 /* HEADER */
@@ -70,4 +82,36 @@ img {
 
 .card {
   width: 30%;
+  padding-top: 2rem;
+}
+
+.card-top {
+  position: relative;
+}
+
+.label-offer {
+  padding: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+}
+
+.label-sustainability {
+  padding: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 3rem;
+  left: 2.5rem;
+}
+
+.box-heart {
+  background-color: var(--white);
+  font-size: 2rem;
+  padding: 0.4rem 0.8rem;
+  position: absolute;
+  top: 1rem;
+  right: -0.1rem;
 }
