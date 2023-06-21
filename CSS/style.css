@@ -98,7 +98,7 @@ body {
 
 .card {
   width: 30%;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 
 .card-top {
