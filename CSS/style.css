@@ -3,16 +3,55 @@
   --red: #ff0705;
   --green: #008000;
   --black: #0e0e0e;
+  --white: #ffffff;
 }
 
+/* General */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+header {
+  padding: 1.5rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utils */
 .container {
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.normal-height {
+  height: 1rem;
+}
+
+.bg-orange {
+  background-color: var(--orange);
 }
