@@ -105,12 +105,9 @@ body {
 /* MAIN */
 
 .card {
+  position: relative;
   width: 30%;
   padding: 2rem 0;
-}
-
-.card-top {
-  position: relative;
 }
 
 .card-bottom span {
@@ -121,7 +118,7 @@ body {
   font-size: 0.75rem;
   font-weight: bold;
   position: absolute;
-  bottom: 2rem;
+  bottom: 10rem;
   left: 0;
 }
 
@@ -134,12 +131,22 @@ body {
   font-size: 2rem;
   padding: 0.4rem 0.8rem;
   position: absolute;
-  top: 1rem;
+  top: 3rem;
   right: -0.1rem;
 }
 
 .card-bottom .text-red {
   font-weight: bold;
+}
+
+.card-top img:nth-child(2) {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.card-top:hover img:nth-child(2) {
+  display: inline-block;
 }
 
 /* FOOTER */
