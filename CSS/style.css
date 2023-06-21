@@ -55,3 +55,9 @@ img {
 .bg-orange {
   background-color: var(--orange);
 }
+
+/* HEADER */
+.logo > img {
+  max-height: 1.5rem;
+  background-size: cover;
+}
