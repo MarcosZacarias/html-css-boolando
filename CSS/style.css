@@ -76,6 +76,10 @@ body {
   height: 1rem;
 }
 
+.text-small {
+  font-size: 0.75rem;
+}
+
 .bg-orange {
   background-color: var(--orange);
 }
@@ -86,6 +90,10 @@ body {
 
 .bg-red {
   background-color: var(--red);
+}
+
+.bg-black {
+  background-color: var(--black);
 }
 
 /* HEADER */
@@ -138,4 +146,15 @@ body {
 
 .card-bottom .text-red {
   font-weight: bold;
+}
+
+/* FOOTER */
+
+footer > .container {
+  padding: 2rem 0;
+}
+
+.footer-main > *,
+.footer-aside > * {
+  padding: 5px 3px;
 }
